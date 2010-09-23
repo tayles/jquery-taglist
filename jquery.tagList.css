@@ -1,0 +1,70 @@
+body, input, textarea, table {
+font-family: helvetica, verdana, arial, sans-serif;
+font-size: 9pt;
+color: #444;
+}
+
+body {
+margin: 2em;
+}
+
+
+#txt {
+font-family: arial;
+font-size: 10pt;
+font-weight: normal;
+}
+
+#box {
+position: absolute;
+background: #fff;
+display: none;
+border: 1px solid #aaa;
+font-size: 9pt;
+padding: 2px;
+margin: 0;
+list-style: none;
+-moz-box-shadow: 2px 2px 8px #888;
+
+}
+
+#box a {
+padding: 0.1em 0.4em 0.2em 0.2em;
+display: block;
+text-decoration: none;
+}
+
+#box a:hover, #box a:focus {
+background: #999;
+color: #fff;
+}
+
+#box a:hover {
+background: #666;
+}
+
+#suggestedTags {
+margin: 1em 0;
+}
+
+#suggestedTags li {
+list-style: none;
+float: left;
+}
+
+#suggestedTags a {
+display: block;
+padding: 0.1em 0.3em 0.2em 0.3em;
+margin: 0.1em;
+text-decoration: none;
+}
+
+#suggestedTags a:hover {
+background: #666;
+color: #fff;
+}
+
+#suggestedTags .selectedTag {
+background: #999;
+color: #fff;
+}
